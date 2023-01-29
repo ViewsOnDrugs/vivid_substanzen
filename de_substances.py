@@ -1,32 +1,76 @@
 import pandas as pd
 import streamlit as st
-import os
-import json
+
+add_emos = {"Oral oder nasal": "Oral :lips: oder nasal :pig_nose:",
+            "Oral": "Oral :lips:",
+            "Nasal oder intravenös, seltener auch oral": "Nasal :pig_nose:, oder intravenös :syringe:, seltener auch oral :lips:",
+            "Oral oder sublingual": "Oral :lips: oder sublingual :tongue:",
+            "Nasal, intravenös oder geraucht als Crack": "Nasal :pig_nose:, intravenös :syringe: oder geraucht als Crack :fog:",
+            "Oral (gekaute Pilze, \r\nals Tee oder als Pulver in Kapseln)": "Oral :lips: (gekaute Pilze :mushroom:, als Tee :tea: oder als Pulver in Kapseln :pill:)"}
+
 
 
 def load_data():
-    path_ = "./data"
+    subst_dic = pd.read_csv(
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQM9INa12gkmzYivUzD4AqBpsYllL7Skehz6DdlqKWqVu3rPbYOA4IyFBo3q8IdswJNoUW7CmNLdZHs/pub?gid=1734089&single=true&output=csv").to_dict(
+        orient="records")
 
-    with open(os.path.join(path_, "substances.json"), 'r') as fp:
-        substance_dic = json.load(fp)
+    dict_to_render = {}
 
-    subs_dict = substance_dic.copy()
+    for subst in subst_dic:
+        wirkdauer_dict = {
+            "Nasal": {
+                "Wirkungseintritt": subst["Wirkdauer Nasal Wirkungseintritt"],
+                "Peak": subst["Wirkdauer Nasal Peak"],
+                "Wirkdauer": subst["Wirkdauer Nasal Wirkdauer"]
+            },
+            "Oral": {
+                "Wirkungseintritt": subst["Wirkdauer Oral Wirkungseintritt"],
+                "Peak": subst["Wirkdauer Oral Peak"],
+                "Wirkdauer": subst["Wirkdauer Oral Wirkdauer"]
+            }
+        }
 
-    for subs in list(subs_dict.keys()):
-        subs_dict[subs]["comment"]=subs_dict[subs]["comment"]
+        dose_dict = {
+            "Nasal": {
+                "Hohe Dosis": subst["Dosierung Nasal Hohe Dosis"],
+                "Leichte Dosis": subst["Dosierung Nasal Hohe Dosis"],
+                "Mittlere Dosis": subst["Dosierung Nasal Hohe Dosis"]
+            },
+            "Oral": {
+                "Hohe Dosis": subst["Dosierung Oral Hohe Dosis"],
+                "Leichte Dosis": subst["Dosierung Oral Hohe Dosis"],
+                "Mittlere Dosis": subst["Dosierung Oral Hohe Dosis"]
+            }
+        }
 
-        subs_dict[subs]["dose_df"] = pd.DataFrame.from_dict(subs_dict[subs]["dose_dict"])
-        subs_dict[subs]["wirkdauer_df"] = pd.DataFrame.from_dict(subs_dict[subs]["wirkdauer_dict"])
-        rows_ord = ['Wirkungseintritt', 'Peak', 'Wirkdauer']
-        subs_dict[subs]["wirkdauer_df"] = subs_dict[subs]["wirkdauer_df"].reindex(rows_ord)
-    return subs_dict
+        dose_dic_clean = {x: dose_dict[x] for x in dose_dict if not pd.isnull(dose_dict[x]["Hohe Dosis"])}
+        wirkdauer_dict_clean = {x: wirkdauer_dict[x] for x in wirkdauer_dict if
+                                not pd.isnull(wirkdauer_dict[x]["Peak"])}
+        subst[
+            "Wirkung"] = f":white_check_mark: Positiv:{subst['Wirkung Positiv']}; :white_large_square: Neutral: {subst['Wirkung Neutral']}; :small_red_triangle: Negativ: {subst['Wirkung Negativ']}"
+        subst[
+            "Kombinationen"] = f":arrow_up_small: Verstärkt: {subst['Kombinationen Verstärkt']}; :arrow_down_small: Verringert: {subst['Kombinationen Verringert']}; :warning: Gefährlich: {subst['Kombinationen Gefährlich']}"
+
+        subst["dose_df"] = pd.DataFrame.from_dict(dose_dic_clean)
+        subst["wirkdauer_df"] = pd.DataFrame.from_dict(wirkdauer_dict_clean)
+        subst['VIVID Safer-Use Tipps'] = subst['VIVID Safer-Use Tipps'].strip()
+
+        dict_to_render[subst["Substanz"]] = subst
+
+    return dict_to_render
 
 subs_dict = load_data()
 def main():
     drug_list = tuple(subs_dict.keys())
 
-    st.title("Substanzen Info")
-    st.info("Eine digitale Version des VIVID-Substanzen-Flyers")
+    head1, _, head2 = st.columns(3)
+
+    with _:
+        foot = f' [<img src="https://vivid-hamburg.de/wp-content/uploads/2020/05/logo_lang.jpg" alt="drawing" width="400"/>](https://vivid-hamburg.de/)'
+        st.markdown(foot, unsafe_allow_html=True)
+
+    st.info("Die digitale Version der VIVID-Substanzen-Flyers")
 
     st.write("##")
 
@@ -54,13 +98,13 @@ def main():
         st.markdown(f"#### {'Wirkdauer'}")
         st.table(subs_dict[substance]["wirkdauer_df"])
 
-    st.markdown(f"###### {subs_dict[substance]['comment']}")
+    st.markdown(f"###### {subs_dict[substance]['Dosierung Kommentar']}")
 
     st.markdown("---")
     col5, col6 = st.columns(2)
 
 
-    var_text = subs_dict[substance]["Konsumform"]
+    var_text = add_emos[subs_dict[substance]["Konsumform"]]
 
     with col5:
         st.markdown(f"#### **Konsumform:**")
@@ -104,7 +148,7 @@ def main():
             var_text = subs_dict[substance][var]
 
             st.markdown(f"#### {var}:")
-            st.markdown(f"###### {var_text}")
+            st.markdown(f"{var_text}")
 
 
     _,footcol, _ = st.columns(3)
