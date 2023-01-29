@@ -53,7 +53,7 @@ def load_data():
         wirkdauer_dict_clean = {x: wirkdauer_dict[x] for x in wirkdauer_dict if
                                 not pd.isnull(wirkdauer_dict[x]["Peak"])}
         subst[
-            "Wirkung"] = f":white_check_mark: Positiv:{subst['Wirkung Positiv']}; :white_large_square: Neutral: {subst['Wirkung Neutral']}; :small_red_triangle: Negativ: {subst['Wirkung Negativ']}"
+            "Wirkung"] = f":white_check_mark: Positiv: {subst['Wirkung Positiv']}; :white_large_square: Neutral: {subst['Wirkung Neutral']}; :small_red_triangle: Negativ: {subst['Wirkung Negativ']}"
         subst[
             "Kombinationen"] = f":arrow_up_small: Verstärkt: {subst['Kombinationen Verstärkt']}; :arrow_down_small: Verringert: {subst['Kombinationen Verringert']}; :warning: Gefährlich: {subst['Kombinationen Gefährlich']}"
 
