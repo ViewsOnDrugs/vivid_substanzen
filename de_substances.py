@@ -52,10 +52,6 @@ def load_data():
         dose_dic_clean = {x: dose_dict[x] for x in dose_dict if not pd.isnull(dose_dict[x]["Hohe Dosis"])}
         wirkdauer_dict_clean = {x: wirkdauer_dict[x] for x in wirkdauer_dict if
                                 not pd.isnull(wirkdauer_dict[x]["Peak"])}
-        subst[
-            "Wirkung"] = f":white_check_mark: Positiv: {subst['Wirkung Positiv']}; :white_large_square: Neutral: {subst['Wirkung Neutral']}; :small_red_triangle: Negativ: {subst['Wirkung Negativ']}"
-        subst[
-            "Kombinationen"] = f":arrow_up_small: Verstärkt: {subst['Kombinationen Verstärkt']}; :arrow_down_small: Verringert: {subst['Kombinationen Verringert']}; :warning: Gefährlich: {subst['Kombinationen Gefährlich']}"
 
         subst["dose_df"] = pd.DataFrame.from_dict(dose_dic_clean).reindex(dosis_ord)
         subst["wirkdauer_df"] = pd.DataFrame.from_dict(wirkdauer_dict_clean).reindex(wirk_ord)
@@ -127,26 +123,26 @@ def main():
     st.markdown("#### Wirkung")
     col_pos, col_neut, col_neg,  = st.columns(3)
     with col_pos:
-        st.markdown(f'###### {subs_dict[substance]["Wirkung"].split(";")[0]}')
+        st.markdown(f'###### :white_check_mark: Positiv: {subs_dict[substance]["Wirkung Positiv"]}')
     with col_neut:
-        st.markdown(f'###### {subs_dict[substance]["Wirkung"].split(";")[1]}')
+        st.markdown(f'###### :white_large_square: Neutral: {subs_dict[substance]["Wirkung Neutral"]}')
     with col_neg:
-        st.markdown(f'###### {subs_dict[substance]["Wirkung"].split(";")[2]}')
+        st.markdown(f'###### :small_red_triangle: Negativ: {subs_dict[substance]["Wirkung Negativ"]}')
 
     st.markdown("---")
     st.markdown("#### Kombinationen:")
 
-    if len(subs_dict[substance]["Kombinationen"].split(";")) >= 4:
-        st.warning(f'{subs_dict[substance]["Kombinationen"].split(";")[3]}')
+    # if len(subs_dict[substance]["Kombinationen"].split(";")) >= 4:
+    #     st.warning(f'{subs_dict[substance]["Kombinationen"].split(";")[3]}')
     st.text("")
     col_pos_, col_neut_, col_neg_,  = st.columns(3)
 
     with col_pos_:
-        st.markdown(f'###### {subs_dict[substance]["Kombinationen"].split(";")[0]}')
+        st.markdown(f'###### :arrow_up_small: Verstärkt: {subs_dict[substance]["Kombinationen Verstärkt"]}')
     with col_neut_:
-        st.markdown(f'###### {subs_dict[substance]["Kombinationen"].split(";")[1]}')
+        st.markdown(f'###### :arrow_down_small: Verringert: {subs_dict[substance]["Kombinationen Verringert"]}')
     with col_neg_:
-        st.markdown(f'###### {subs_dict[substance]["Kombinationen"].split(";")[2]}')
+        st.markdown(f'###### :warning: Gefährlich: {subs_dict[substance]["Kombinationen Gefährlich"]}')
 
     st.markdown("---")
     for var in list(subs_dict[substance].keys()):
