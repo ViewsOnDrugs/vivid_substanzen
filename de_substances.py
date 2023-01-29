@@ -44,6 +44,11 @@ def load_data():
             }
         }
 
+        dosis_ord = ["Leichte Dosis", "Mittlere Dosis", "Hohe Dosis"]
+        wirk_ord = ["Wirkungseintritt", "Peak", "Wirkdauer"]
+
+
+
         dose_dic_clean = {x: dose_dict[x] for x in dose_dict if not pd.isnull(dose_dict[x]["Hohe Dosis"])}
         wirkdauer_dict_clean = {x: wirkdauer_dict[x] for x in wirkdauer_dict if
                                 not pd.isnull(wirkdauer_dict[x]["Peak"])}
@@ -52,8 +57,9 @@ def load_data():
         subst[
             "Kombinationen"] = f":arrow_up_small: Verstärkt: {subst['Kombinationen Verstärkt']}; :arrow_down_small: Verringert: {subst['Kombinationen Verringert']}; :warning: Gefährlich: {subst['Kombinationen Gefährlich']}"
 
-        subst["dose_df"] = pd.DataFrame.from_dict(dose_dic_clean)
-        subst["wirkdauer_df"] = pd.DataFrame.from_dict(wirkdauer_dict_clean)
+        subst["dose_df"] = pd.DataFrame.from_dict(dose_dic_clean).reindex(dosis_ord)
+        subst["wirkdauer_df"] = pd.DataFrame.from_dict(wirkdauer_dict_clean).reindex(wirk_ord)
+
         subst['VIVID Safer-Use Tipps'] = subst['VIVID Safer-Use Tipps'].strip()
 
         dict_to_render[subst["Substanz"]] = subst
