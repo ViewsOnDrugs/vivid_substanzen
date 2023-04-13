@@ -33,14 +33,14 @@ def load_data():
 
         dose_dict = {
             "Nasal": {
-                "Hohe Dosis": subst["Dosierung Nasal Leichte Dosis"],
-                "Leichte Dosis": subst["Dosierung Nasal Mittlere Dosis"],
-                "Mittlere Dosis": subst["Dosierung Nasal Hohe Dosis"]
+                "Hohe Dosis": subst["Dosierung Nasal Hohe Dosis"],
+                "Leichte Dosis": subst["Dosierung Nasal Leichte Dosis"],
+                "Mittlere Dosis": subst["Dosierung Nasal Mittlere Dosis"]
             },
             "Oral": {
-                "Hohe Dosis": subst["Dosierung Oral Leichte Dosis"],
-                "Leichte Dosis": subst["Dosierung Oral Mittlere Dosis"],
-                "Mittlere Dosis": subst["Dosierung Oral Hohe Dosis"]
+                "Hohe Dosis": subst["Dosierung Oral Hohe Dosis"],
+                "Leichte Dosis": subst["Dosierung Oral Leichte Dosis"],
+                "Mittlere Dosis": subst["Dosierung Oral Mittlere Dosis"]
             }
         }
 
