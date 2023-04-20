@@ -27,12 +27,13 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
 #app.py
-import de_substances, de_disclaimer, tripsit_combos
+import de_substances, de_disclaimer, tripsit_combos, spenden
 
 PAGES = {
     "Substanzen": de_substances,
     "Drug Combinations (EN)": tripsit_combos,
     "Wichtiger Hinweis": de_disclaimer,
+    "Spenden": spenden,
 }
 
 
