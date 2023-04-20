@@ -47,7 +47,7 @@ st.sidebar.markdown(title_alignment, unsafe_allow_html=True)
 
 with st.sidebar:
     selection = option_menu("", list(PAGES.keys()),
-    icons=['file-earmark-text', 'exclamation-triangle', 'info-circle'], menu_icon="cast", default_index=0,
+    icons=['file-earmark-text', 'exclamation-triangle', 'info-circle', 'heart-fill'], menu_icon="cast", default_index=0,
     styles={
         "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px"},
         "nav-link-selected": {"background-color": "ffffff"},
