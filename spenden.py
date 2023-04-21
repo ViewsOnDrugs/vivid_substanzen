@@ -5,7 +5,7 @@ def main():
 
     st.title("VIVID Unterstützen")
 
-    st.write("Wir als Harm-Reduction Verein setzen uns für sicheren und gesunden Substanzkonsum ein und jede Spende hilft uns, noch mehr Menschen zu erreichen. Vielen Dank für deine großartige Unterstützung!")
+    st.write("Wir als Harm-Reduction Verein setzen uns gemeinsam für mehr Gesundheitsförderung im Nachtleben, die Stärkung von Risiko- und Konsumkompetenzen unter jungen Erwachsenen, sowie eine rationale und evidenzbasierte Drogenpolitik ein. Jede Spende hilft uns, noch mehr Menschen zu erreichen. Vielen Dank für deine Unterstützung!")
 
     col1, col2 = st.columns(2)
 
@@ -17,7 +17,7 @@ def main():
 
 
     with col2:
-        if st.button("Paypal"):
+        if st.button("PayPal"):
             st.write("Demnächst...")
 
     _,footcol, _ = st.columns(3)
