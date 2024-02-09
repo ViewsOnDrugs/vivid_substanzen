@@ -85,10 +85,11 @@ For additional information check out the TripSit [Factsheet](http://drugs.tripsi
 For re-use and attribution info see [here](https://wiki.tripsit.me/wiki/Drug_combinations#Use_.26_Attribution)
 
 Click on the TriPsit Logo to check out the TripSit App 2 with this and more useful information!""")
-    st.markdown("""#### a special thanks to @ajar @moonbear and the tripsit team for their help with the development of this tiny app :hearts:""")
+    st.markdown("""###### a special thanks to @ajar @moonbear and the tripsit team for their help with the development of this tiny app :hearts:""")
     _, footcol, _ = st.columns(3)
 
     with footcol:
         foot = f' [<img src="https://raw.githubusercontent.com/TripSit/combogen/master/resources/img/logo.svg" alt="drawing" width="200"/>](https://play.google.com/store/apps/details?id=me.tripsit.mobile&hl=en_US&gl=US)'
         st.markdown(foot, unsafe_allow_html=True)
 
+        st.markdown("[dmt](https://lh3.googleusercontent.com/pw/ABLVV86TYir8Jk0LJTt14pl-cUzIGDlNlsf1EJwy4_wKeouvL1UdgMxI8uMQKNEWwmNsBMw8G2DTysFk5n5PHeJJaz_Qw1b7el_OMbMaVaURUSyrebe_RT-4dGIKa5t7H6ITw_y1w0VNmcDz52hMBPwe0Zqn=w717-h956-s-no-gm)")
