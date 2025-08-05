@@ -3,6 +3,7 @@ import streamlit as st
 
 add_emos = {"Oral oder nasal": "Oral :lips: oder nasal :pig_nose:",
             "Oral": "Oral :lips:",
+            "Inhalation": "Inhalation :dash:",
             "Nasal oder intravenös, seltener auch oral": "Nasal :pig_nose:, oder intravenös :syringe:, seltener auch oral :lips:",
             "Oral oder sublingual": "Oral :lips: oder sublingual :tongue:",
             "Nasal, intravenös oder geraucht als Crack": "Nasal :pig_nose:, intravenös :syringe: oder geraucht als Crack :fog:",
