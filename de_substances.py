@@ -6,6 +6,7 @@ add_emos = {"Oral oder nasal": "Oral :lips: oder nasal :pig_nose:",
             "Inhalation": "Inhalation :dash:",
             "Nasal oder intravenös, seltener auch oral": "Nasal :pig_nose:, oder intravenös :syringe:, seltener auch oral :lips:",
             "Oral oder sublingual": "Oral :lips: oder sublingual :tongue:",
+            "Geraucht/verdampft, oral mit MAO-Hemmer": "Geraucht/verdampft :fog:, oral mit MAO-Hemmer",
             "Nasal, intravenös oder geraucht als Crack": "Nasal :pig_nose:, intravenös :syringe: oder geraucht als Crack :fog:",
             "Oral (gekaute Pilze, \r\nals Tee oder als Pulver in Kapseln)": "Oral :lips: (gekaute Pilze :mushroom:, als Tee :tea: oder als Pulver in Kapseln :pill:)"}
 
@@ -13,51 +14,57 @@ add_emos = {"Oral oder nasal": "Oral :lips: oder nasal :pig_nose:",
 
 def load_data():
     subst_dic = pd.read_csv(
-        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQM9INa12gkmzYivUzD4AqBpsYllL7Skehz6DdlqKWqVu3rPbYOA4IyFBo3q8IdswJNoUW7CmNLdZHs/pub?gid=1734089&single=true&output=csv").to_dict(
-        orient="records")
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQM9INa12gkmzYivUzD4AqBpsYllL7Skehz6DdlqKWqVu3rPbYOA4IyFBo3q8IdswJNoUW7CmNLdZHs/pub?gid=1734089&single=true&output=csv"
+    ).to_dict(orient="records")
 
     dict_to_render = {}
 
     for subst in subst_dic:
-        wirkdauer_dict = {
-            "Nasal": {
-                "Wirkungseintritt": subst["Wirkdauer Nasal Wirkungseintritt"],
-                "Peak": subst["Wirkdauer Nasal Peak"],
-                "Wirkdauer": subst["Wirkdauer Nasal Wirkdauer"]
-            },
-            "Oral": {
-                "Wirkungseintritt": subst["Wirkdauer Oral Wirkungseintritt"],
-                "Peak": subst["Wirkdauer Oral Peak"],
-                "Wirkdauer": subst["Wirkdauer Oral Wirkdauer"]
-            }
-        }
+        dose_dict = {}
+        wirkdauer_dict = {}
 
-        dose_dict = {
-            "Nasal": {
-                "Hohe Dosis": subst["Dosierung Nasal Hohe Dosis"],
-                "Leichte Dosis": subst["Dosierung Nasal Leichte Dosis"],
-                "Mittlere Dosis": subst["Dosierung Nasal Mittlere Dosis"]
-            },
-            "Oral": {
-                "Hohe Dosis": subst["Dosierung Oral Hohe Dosis"],
-                "Leichte Dosis": subst["Dosierung Oral Leichte Dosis"],
-                "Mittlere Dosis": subst["Dosierung Oral Mittlere Dosis"]
-            }
-        }
-
+        # Check for known methods in the CSV
+        konsummethoden = ["Oral", "Nasal", "inhaliert", "Geraucht/Verdampft"]
         dosis_ord = ["Leichte Dosis", "Mittlere Dosis", "Hohe Dosis"]
         wirk_ord = ["Wirkungseintritt", "Peak", "Wirkdauer"]
 
+        for method in konsummethoden:
+            # Build dose subdict if all keys exist
+            dose_keys = {
+                "Leichte Dosis": subst.get(f"Dosierung {method} Leichte Dosis"),
+                "Mittlere Dosis": subst.get(f"Dosierung {method} Mittlere Dosis"),
+                "Hohe Dosis": subst.get(f"Dosierung {method} Hohe Dosis"),
+            }
+            if any(dose_keys.values()):
+                dose_dict[method] = dose_keys
 
+            # Build wirkdauer subdict if keys exist
+            wirk_keys = {
+                "Wirkungseintritt": subst.get(f"Wirkdauer {method} Wirkungseintritt"),
+                "Peak": subst.get(f"Wirkdauer {method} Peak"),
+                "Wirkdauer": subst.get(f"Wirkdauer {method} Wirkdauer"),
+            }
+            if any(wirk_keys.values()):
+                wirkdauer_dict[method] = wirk_keys
 
-        dose_dic_clean = {x: dose_dict[x] for x in dose_dict if not pd.isnull(dose_dict[x]["Hohe Dosis"])}
-        wirkdauer_dict_clean = {x: wirkdauer_dict[x] for x in wirkdauer_dict if
-                                not pd.isnull(wirkdauer_dict[x]["Peak"])}
+        # Only include methods with valid entries
+        dose_dic_clean = {
+            method: values
+            for method, values in dose_dict.items()
+            if values["Hohe Dosis"] and not pd.isnull(values["Hohe Dosis"])
+        }
+
+        wirkdauer_dict_clean = {
+            method: values
+            for method, values in wirkdauer_dict.items()
+            if values["Peak"] and not pd.isnull(values["Peak"])
+        }
 
         subst["dose_df"] = pd.DataFrame.from_dict(dose_dic_clean).reindex(dosis_ord)
         subst["wirkdauer_df"] = pd.DataFrame.from_dict(wirkdauer_dict_clean).reindex(wirk_ord)
 
-        subst['VIVID Safer-Use Tipps'] = subst['VIVID Safer-Use Tipps'].strip()
+        if isinstance(subst.get("VIVID Safer-Use Tipps"), str):
+            subst["VIVID Safer-Use Tipps"] = subst["VIVID Safer-Use Tipps"].strip()
 
         dict_to_render[subst["Substanz"]] = subst
 
