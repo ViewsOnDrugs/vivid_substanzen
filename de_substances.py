@@ -24,7 +24,7 @@ def load_data():
         wirkdauer_dict = {}
 
         # Check for known methods in the CSV
-        konsummethoden = ["Oral", "Nasal", "inhaliert", "Geraucht/Verdampft"]
+        konsummethoden = ["Oral", "Nasal", "Inhaliert", "Geraucht/Verdampft"]
         dosis_ord = ["Leichte Dosis", "Mittlere Dosis", "Hohe Dosis"]
         wirk_ord = ["Wirkungseintritt", "Peak", "Wirkdauer"]
 
