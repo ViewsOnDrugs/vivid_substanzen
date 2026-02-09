@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VIVID Substanzen</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="https://vivid-hamburg.de/wp-content/uploads/2023/07/cropped-favicon-192x192.png" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <button id="sidebar-close" class="sidebar-close" aria-label="Sidebar schließen">x</button>
+      <a class="sidebar-logo" href="https://vivid-hamburg.de/" target="_blank" rel="noreferrer">
+        <img src="https://vivid-hamburg.de/wp-content/uploads/2020/05/logo_lang.jpg" alt="VIVID Logo" />
+      </a>
+      <p class="sidebar-tag">-Know your Drugs-</p>
+      <nav class="sidebar-nav" role="tablist" aria-label="Seiten">
+        <button class="nav-btn active" data-page="substances" role="tab" type="button"><i class="fa-regular fa-file-lines"></i> Substanzen</button>
+        <button class="nav-btn" data-page="combos" role="tab" type="button"><i class="fa-solid fa-triangle-exclamation"></i> Drug Combinations (EN)</button>
+        <button class="nav-btn" data-page="disclaimer" role="tab" type="button"><i class="fa-solid fa-circle-info"></i> Wichtiger Hinweis</button>
+        <button class="nav-btn" data-page="donate" role="tab" type="button"><i class="fa-solid fa-heart"></i> Spenden</button>
+      </nav>
+    </aside>
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <main class="main-panel">
+      <button id="sidebar-open" class="sidebar-open" type="button" aria-label="Sidebar öffnen">
+        <span></span><span></span><span></span>
+      </button>
+      <section class="page active" data-page="substances" aria-label="Substanzen">
+        <div class="info-box">Die digitale Version der VIVID-Substanzen-Flyer</div>
+
+        <div class="selector-row">
+          <div>
+            <label for="substance-select">Wählt eine Substanz aus</label>
+            <select id="substance-select"></select>
+          </div>
+          <h1 id="substance-name"></h1>
+        </div>
+
+        <div class="info-box text-box" id="substance-desc"></div>
+
+        <div class="tables-row">
+          <div>
+            <h2>Dosierung</h2>
+            <div id="dose-table"></div>
+          </div>
+          <div>
+            <h2>Wirkdauer</h2>
+            <div id="duration-table"></div>
+          </div>
+        </div>
+
+        <p class="detail-text" id="dose-comment"></p>
+
+        <hr />
+
+        <div class="two-col">
+          <div>
+            <h3>Konsumform:</h3>
+            <p id="konsumform"></p>
+          </div>
+          <div>
+            <h3>Erscheinungsform:</h3>
+            <p id="erscheinungsform"></p>
+          </div>
+        </div>
+
+        <hr />
+
+        <h3>Wirkung</h3>
+        <div class="three-col">
+          <div>
+            <p class="muted">✅ Positiv</p>
+            <p id="wirkung-positiv"></p>
+          </div>
+          <div>
+            <p class="muted">⬜ Neutral</p>
+            <p id="wirkung-neutral"></p>
+          </div>
+          <div>
+            <p class="muted">🔺 Negativ</p>
+            <p id="wirkung-negativ"></p>
+          </div>
+        </div>
+
+        <hr />
+
+        <h3>Kombinationen</h3>
+        <div class="three-col">
+          <div>
+            <p class="muted">🔺 Verstärkt</p>
+            <p id="combo-up"></p>
+          </div>
+          <div>
+            <p class="muted">🔻 Verringert</p>
+            <p id="combo-down"></p>
+          </div>
+          <div>
+            <p class="muted">⚠️ Gefährlich</p>
+            <p id="combo-warning"></p>
+          </div>
+        </div>
+
+        <hr />
+
+        <h3>Toleranz</h3>
+        <p id="toleranz"></p>
+
+        <h3>VIVID Safer-Use Tipps</h3>
+        <div id="saferuse" class="rich-text"></div>
+      </section>
+
+      <section class="page" data-page="combos" aria-label="Drug Combinations">
+        <h2>TripSit Drug Combinations</h2>
+        <div class="info-box">
+          This is an app version of the <a href="https://tripsit.me/" target="_blank" rel="noreferrer">TripSit</a> combo chart you can find
+          <a href="https://wiki.tripsit.me/wiki/Drug_combinations" target="_blank" rel="noreferrer">here</a>.
+        </div>
+        <div class="warning-box">
+          WARNING! For educational purposes: We do not endorse any of these combinations. This page is work in progress. It is extremely important to be safe at all times.
+        </div>
+
+        <div class="two-col">
+          <div>
+            <label for="combo-a">Select a substance</label>
+            <select id="combo-a"></select>
+          </div>
+          <div>
+            <label for="combo-b">Select a combining substance</label>
+            <select id="combo-b"></select>
+          </div>
+        </div>
+
+        <div class="three-col combo-row">
+          <div>
+            <h2 id="combo-title"></h2>
+          </div>
+          <div>
+            <img id="combo-image" src="" alt="TripSit status" class="combo-image" />
+            <p id="combo-note"></p>
+          </div>
+          <div>
+            <h3 id="combo-status"></h3>
+            <p id="combo-description"></p>
+          </div>
+        </div>
+
+        <p class="detail-text">
+          The app, like the combo chart, is meant as a quick reference guide and additional research MUST always be done.
+          For additional information check out the TripSit
+          <a href="http://drugs.tripsit.me/" target="_blank" rel="noreferrer">Factsheet</a>.
+          For re-use and attribution info see
+          <a href="https://wiki.tripsit.me/wiki/Drug_combinations#Use_.26_Attribution" target="_blank" rel="noreferrer">this reference</a>.
+          Click on the TripSit logo to check out the TripSit App 2.
+        </p>
+        <p class="detail-text">A special thanks to @ajar @moonbear and the TripSit team.</p>
+        <p class="tripsit-logo">
+          <a href="https://play.google.com/store/apps/details?id=me.tripsit.mobile&hl=en_US&gl=US" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/TripSit/combogen/master/resources/img/logo.svg" alt="TripSit logo" />
+          </a>
+        </p>
+      </section>
+
+      <section class="page" data-page="disclaimer" aria-label="Wichtiger Hinweis">
+        <h2>Wichtiger Hinweis</h2>
+        <div class="info-box">
+          Die Inhalte auf dieser Seite dienen ausschließlich der Information und Schadensminderung.
+        </div>
+        <p>
+          Die Informationen auf dieser Seite sind keine Konsumempfehlung. Sie wurden sorgfältig zusammengestellt,
+          können aber nur einen ersten Anhaltspunkt für eigene Nachforschungen bilden. Konsumerfahrungen und Risiken
+          sind individuell. Sie können von den genannten Informationen abweichen. Sich verstärkende Kombinationen
+          und Mischkonsum generell haben ein höheres Risiko für unerwünschte Nebenwirkungen als der Monokonsum von
+          Substanzen. Eine Verringerung der wahrgenommenen Effekte bei der Kombination von Substanzen ist meistens
+          durch eine Überlagerung und nicht durch eine gegenseitige Aufhebung zu erklären. Die unter gefährlich
+          genannten Kombinationen sind keine abschließende Liste gesundheitsschädlicher Kombinationen.
+        </p>
+      </section>
+
+      <section class="page" data-page="donate" aria-label="Spenden">
+        <h2>VIVID Unterstützen</h2>
+        <div class="info-box">
+          Jede Spende hilft uns, noch mehr Menschen mit Harm-Reduction-Informationen zu erreichen.
+        </div>
+        <p>
+          Wir als Harm-Reduction Verein setzen uns gemeinsam für mehr Gesundheitsförderung im Nachtleben,
+          die Stärkung von Risiko- und Konsumkompetenzen unter jungen Erwachsenen, sowie eine rationale
+          und evidenzbasierte Drogenpolitik ein. Jede Spende hilft uns, noch mehr Menschen zu erreichen.
+          Vielen Dank für deine Unterstützung.
+        </p>
+
+        <div class="two-col">
+          <div>
+            <button id="bank-toggle" class="bank-btn" type="button">Bank Überweisung</button>
+            <div id="bank-details" class="bank-details" hidden>
+              <p>Name: VIVID e.V.</p>
+              <p>Bank für Sozialwirtschaft</p>
+              <p>IBAN: DE68 2512 0510 0001 7392 00</p>
+              <p>BIC: BFSWDE XXX</p>
+            </div>
+          </div>
+          <div class="paypal-block">
+            <a href="https://www.paypal.com/donate/?hosted_button_id=B22VZNE4Y9P68" target="_blank" rel="noreferrer">
+              <img src="assets/img/paypal-donate-button.webp" alt="PayPal spenden" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <a href="https://vivid-hamburg.de/" target="_blank" rel="noreferrer">
+          <img src="https://vivid-hamburg.de/wp-content/uploads/2020/05/logo_lang.jpg" alt="VIVID" />
+        </a>
+      </footer>
+    </main>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

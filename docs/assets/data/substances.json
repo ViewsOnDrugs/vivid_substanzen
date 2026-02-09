@@ -1,0 +1,821 @@
+{
+    "2C-B": {
+        "Beschreibung": "2C-B ist ein Psychedelikum aus der Klasse der Phenylethylamine, zu der auch das natürlich vorkommende Meskalin gehört.",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "",
+        "Dosierung Inhaliert Hohe Dosis": "",
+        "Dosierung Inhaliert Leichte Dosis": "",
+        "Dosierung Inhaliert Mittlere Dosis": "",
+        "Dosierung Kommentar": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Ein gefüllter Magen kann den Wirkungseintritt merklich verzögern, sowie die Intensität verringern.",
+        "Dosierung Nasal Hohe Dosis": "Ab 12 mg",
+        "Dosierung Nasal Leichte Dosis": "5 mg",
+        "Dosierung Nasal Mittlere Dosis": "5-12 mg",
+        "Dosierung Oral Hohe Dosis": "Ab 25 mg",
+        "Dosierung Oral Leichte Dosis": "5-15 mg",
+        "Dosierung Oral Mittlere Dosis": "15-25 mg",
+        "Erscheinungsform": "Weißes / beiges / graues Pulver oder in Pillenform",
+        "Kombinationen Gefährlich": "MAO-Hemmer (z. B. einige Antidepressiva), Tramadol",
+        "Kombinationen Verringert": "Alkohol, Benzodiazepine, GHB, Serotonin- Wiederaufnahmehemmer",
+        "Kombinationen Verstärkt": "Cannabis, DXM, Ketamin, Lachgas, MDMA, Psychedelika (z. B. LSD, Pilze, DMT)",
+        "Konsumform": "Oral oder nasal",
+        "Toleranz": "Im Vergleich zu anderen Psychedelischen Drogen baut sich die Toleranz von 2C-B nur langsam über 1-3 Tage auf, ist jedoch nach 14 Tagen wieder komplett abgebaut. Es herrscht eine Kreuztoleranz zu anderen psychedelischen Drogen, welche beachtet werden sollte.",
+        "VIVID Safer-Use Tipps": "\n - Genaues Dosieren mit einer passenden Milligrammwaage\n - Kristalle gründlich zerkleinern\n - Eigenes Ziehröhrchen sowie saubere Ziehfläche verwenden\n - Freund*innen über konsumierte Menge informieren\n - Anwesenheit einer nüchternen Bezugsperson\n\n> Aufgrund des engen Dosierungsbereichs und des schnellen Wirkungseintritts ist das Risiko einer Überdosierung bei nasalem Konsum wesentlich höher. Das extrem starke Brennen in der Nase kann zudem den Trip beeinflussen. Beachte deine allgemeine Verfassung (Set) und deine Umgebung (Setting) -beides hat einen erheblichen Einfluss auf deine Erfahrung. Wenn es dir zu viel wird, kann es beruhigend wirken die Umgebung zu wechseln und etwas zu essen/trinken. In großen Gruppen zu agieren und sich abzusprechen kann schwierig werden.",
+        "Wirkdauer Geraucht/Verdampft Peak": "",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "",
+        "Wirkdauer Inhaliert Peak": "",
+        "Wirkdauer Inhaliert Wirkdauer": "",
+        "Wirkdauer Inhaliert Wirkungseintritt": "",
+        "Wirkdauer Nasal Peak": "1-2 Stunden",
+        "Wirkdauer Nasal Wirkdauer": "2-4 Stunden",
+        "Wirkdauer Nasal Wirkungseintritt": "1-10 Minuten",
+        "Wirkdauer Oral Peak": "2-3 Stunden",
+        "Wirkdauer Oral Wirkdauer": "4-6 Stunden",
+        "Wirkdauer Oral Wirkungseintritt": "30-60 Minuten",
+        "Wirkung Negativ": "Übelkeit, Muskelverspannung, abnehmende Konzentration, Verwirrung bis hin zu Paranoia, angstvolle Ich-Auflösung (ego-death)",
+        "Wirkung Neutral": "Stimulierend, verminderter Appetit, Erhöhung der Körpertemperatur und des Pulses",
+        "Wirkung Positiv": "Stimmungshebend, euphorisierend, gesteigerte Sinneswahrnehmung, Visuals (Morphen von Formen, erhöhte Farbintensität, geometrische Muster), Steigerung der Libido, Erhöhung der Kreativität und Emotionalität, spirituelle Zustände",
+        "comment": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Ein gefüllter Magen kann den Wirkungseintritt merklich verzögern, sowie die Intensität verringern.",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "Ab 12 mg",
+                "Leichte Dosis": "5 mg",
+                "Mittlere Dosis": "5-12 mg"
+            },
+            "Oral": {
+                "Hohe Dosis": "Ab 25 mg",
+                "Leichte Dosis": "5-15 mg",
+                "Mittlere Dosis": "15-25 mg"
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "1-2 Stunden",
+                "Wirkdauer": "2-4 Stunden",
+                "Wirkungseintritt": "1-10 Minuten"
+            },
+            "Oral": {
+                "Peak": "2-3 Stunden",
+                "Wirkdauer": "4-6 Stunden",
+                "Wirkungseintritt": "30-60 Minuten"
+            }
+        }
+    },
+    "3-MMC": {
+        "Beschreibung": "3-MMC und 4-MMC (Mephedron) sind synthetische Cathinone, deren chemische Struktur von den psychoaktiven Inhaltsstoffen der Khat-Pflanze abgeleitet ist.",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "",
+        "Dosierung Inhaliert Hohe Dosis": "",
+        "Dosierung Inhaliert Leichte Dosis": "",
+        "Dosierung Inhaliert Mittlere Dosis": "",
+        "Dosierung Kommentar": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Beide Substanzen sind bekannt dafür, dass sie ein starkes Verlangen zum Nachlegen auslösen. Am stärksten ist dieser Drang beim Nachlassen der Wirkung. Bei oralem Konsum tritt dieser Drang deutlich schwächer auf.",
+        "Dosierung Nasal Hohe Dosis": "60 - 120 mg",
+        "Dosierung Nasal Leichte Dosis": "20 - 40 mg",
+        "Dosierung Nasal Mittlere Dosis": "40 - 60 mg",
+        "Dosierung Oral Hohe Dosis": "250 - 350 mg",
+        "Dosierung Oral Leichte Dosis": "50 - 150 mg",
+        "Dosierung Oral Mittlere Dosis": "150 - 250 mg",
+        "Erscheinungsform": "Weiß, gelblich oder bräunlich, kristallines Pulver",
+        "Kombinationen Gefährlich": "MDMA, Tramadol, MAO-Hemmer (z. B. einige Antidepressiva)",
+        "Kombinationen Verringert": "",
+        "Kombinationen Verstärkt": "",
+        "Konsumform": "Oral oder nasal",
+        "Toleranz": "Der regelmäßige Konsum von 3-MMC und 4-MMC führt zum Aufbau einer Toleranz. Diese ist nach zwei Wochen vollständig abgebaut. Eine Kreuztoleranz mit den meisten anderen Stimulanzien ist vorhanden.",
+        "VIVID Safer-Use Tipps": "3-MMC und 4-MMC sind relativ neue psychoaktive Substanzen, sodass der aktuelle Stand des Wissens fast ausschließlich auf Berichten von Konsumierenden basiert. Die unten genannten Kombinationen sind keine abschließende Liste gesundheitsschädlicher Kombinationen.  \n\n- Genaues Dosieren mit einer Milligrammwaage\n- Kristalle gründlich zerkleinern\n- Eigenes Ziehröhrchen sowie saubere Ziehfläche verwenden\n\nMehrmaliges Nachdosieren erhöht das Risiko von Neben- und Nachwirkungen. Nasaler Konsum wirkt schneller und kürzer. Das schnelle Nachlassen der Wirkung kann als besonders unangenehm empfunden werden. Somit kann es zu ungeplanter oder häufigerer Nachdosierung kommen. Das Abhängigkeitspotenzial steigt dadurch. Verzichte auf Mischkonsum, da Wechsel-\nwirkungen unerforscht sind.\n\nErgebnisse aus dem Drug Checking zeigen, dass das, was als 3-MMC/4-MMC\nverkauft wird, häufig andere Substanzen als deklariert enthält. Beispielsweise\nwird das schädlichere 4-CMC häufig als 4-MMC verkauft. Im Vergleich zu\n4-MMC wirkt 3-MMC weniger empathogen, dafür aber stärker stimulierend\nund libidosteigernd. Lass die Substanz von einem Drug Checking-Angebot analysieren. Falls dies nicht möglich ist: vorsichtig und niedrig dosiert antesten.\n\nWegen mangelnder Forschung sind die kurz- und langfristigen Nebenwirkungen von 3-MMC/4-MMC unklar. Daher birgt der Konsum nicht abschätzbare Risiken.",
+        "Wirkdauer Geraucht/Verdampft Peak": "",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "",
+        "Wirkdauer Inhaliert Peak": "",
+        "Wirkdauer Inhaliert Wirkdauer": "",
+        "Wirkdauer Inhaliert Wirkungseintritt": "",
+        "Wirkdauer Nasal Peak": "1 - 1,5 Std.",
+        "Wirkdauer Nasal Wirkdauer": "2,5 - 4,5 Std.",
+        "Wirkdauer Nasal Wirkungseintritt": "10 - 20 Min.",
+        "Wirkdauer Oral Peak": "2 Std.",
+        "Wirkdauer Oral Wirkdauer": "4 - 6 Std.",
+        "Wirkdauer Oral Wirkungseintritt": "30 - 60 Min.",
+        "Wirkung Negativ": "Anspannung der Kiefermuskulatur, Übelkeit, Paranoia, starker Nachlegedrang, Herz-Kreislauf-Probleme, Durchblutungsprobleme (kalte Hände und Füße), sexuelle Funktionsstörungen, depressive Stimmung beim Comedown und den darauffolgenden Tagen",
+        "Wirkung Neutral": "Stimulierend, verminderter Appetit, Erhöhung des Blutdrucks und des Pulses, Anstieg der Körpertemperatur",
+        "Wirkung Positiv": "Stimmungshebend, euphorisierend, gesteigerte Sinneswahrnehmung, verstärkter Drang zur Kommunikation, starke Gefühle von Liebe und Empathie, Steigerung der Libido",
+        "comment": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Beide Substanzen sind bekannt dafür, dass sie ein starkes Verlangen zum Nachlegen auslösen. Am stärksten ist dieser Drang beim Nachlassen der Wirkung. Bei oralem Konsum tritt dieser Drang deutlich schwächer auf.",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "60 - 120 mg",
+                "Leichte Dosis": "20 - 40 mg",
+                "Mittlere Dosis": "40 - 60 mg"
+            },
+            "Oral": {
+                "Hohe Dosis": "250 - 350 mg",
+                "Leichte Dosis": "50 - 150 mg",
+                "Mittlere Dosis": "150 - 250 mg"
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "1 - 1,5 Std.",
+                "Wirkdauer": "2,5 - 4,5 Std.",
+                "Wirkungseintritt": "10 - 20 Min."
+            },
+            "Oral": {
+                "Peak": "2 Std.",
+                "Wirkdauer": "4 - 6 Std.",
+                "Wirkungseintritt": "30 - 60 Min."
+            }
+        }
+    },
+    "4-MMC": {
+        "Beschreibung": "3-MMC und 4-MMC (Mephedron) sind synthetische Cathinone, deren chemische Struktur von den psychoaktiven Inhaltsstoffen der Khat-Pflanze abgeleitet ist.",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "",
+        "Dosierung Inhaliert Hohe Dosis": "",
+        "Dosierung Inhaliert Leichte Dosis": "",
+        "Dosierung Inhaliert Mittlere Dosis": "",
+        "Dosierung Kommentar": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Beide Substanzen sind bekannt dafür, dass sie ein starkes Verlangen zum Nachlegen auslösen. Am stärksten ist dieser Drang beim Nachlassen der Wirkung. Bei oralem Konsum tritt dieser Drang deutlich schwächer auf.",
+        "Dosierung Nasal Hohe Dosis": "80 - 125 mg",
+        "Dosierung Nasal Leichte Dosis": "15 - 45 mg",
+        "Dosierung Nasal Mittlere Dosis": "45 - 80 mg",
+        "Dosierung Oral Hohe Dosis": "200 - 300 mg",
+        "Dosierung Oral Leichte Dosis": "50 - 100 mg",
+        "Dosierung Oral Mittlere Dosis": "100 - 200 mg",
+        "Erscheinungsform": "Weiß, gelblich oder bräunlich, kristallines Pulver",
+        "Kombinationen Gefährlich": "MDMA, Tramadol, MAO-Hemmer (z. B. einige Antidepressiva)",
+        "Kombinationen Verringert": "",
+        "Kombinationen Verstärkt": "",
+        "Konsumform": "Oral oder nasal",
+        "Toleranz": "Der regelmäßige Konsum von 3-MMC und 4-MMC führt zum Aufbau einer Toleranz. Diese ist nach zwei Wochen vollständig abgebaut. Eine Kreuztoleranz mit den meisten anderen Stimulanzien ist vorhanden.",
+        "VIVID Safer-Use Tipps": "3-MMC und 4-MMC sind relativ neue psychoaktive Substanzen, sodass der aktuelle Stand des Wissens fast ausschließlich auf Berichten von Konsumierenden basiert. Die unten genannten Kombinationen sind keine abschließende Liste gesundheitsschädlicher Kombinationen.  \n\n- Genaues Dosieren mit einer Milligrammwaage\n- Kristalle gründlich zerkleinern\n- Eigenes Ziehröhrchen sowie saubere Ziehfläche verwenden\n\nMehrmaliges Nachdosieren erhöht das Risiko von Neben- und Nachwirkungen. Nasaler Konsum wirkt schneller und kürzer. Das schnelle Nachlassen der Wirkung kann als besonders unangenehm empfunden werden. Somit kann es zu ungeplanter oder häufigerer Nachdosierung kommen. Das Abhängigkeitspotenzial steigt dadurch. Verzichte auf Mischkonsum, da Wechsel-\nwirkungen unerforscht sind.\n\nErgebnisse aus dem Drug Checking zeigen, dass das, was als 3-MMC/4-MMC\nverkauft wird, häufig andere Substanzen als deklariert enthält. Beispielsweise\nwird das schädlichere 4-CMC häufig als 4-MMC verkauft. Im Vergleich zu\n4-MMC wirkt 3-MMC weniger empathogen, dafür aber stärker stimulierend\nund libidosteigernd. Lass die Substanz von einem Drug Checking-Angebot analysieren. Falls dies nicht möglich ist: vorsichtig und niedrig dosiert antesten.\n\nWegen mangelnder Forschung sind die kurz- und langfristigen Nebenwirkungen von 3-MMC/4-MMC unklar. Daher birgt der Konsum nicht abschätzbare Risiken.",
+        "Wirkdauer Geraucht/Verdampft Peak": "",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "",
+        "Wirkdauer Inhaliert Peak": "",
+        "Wirkdauer Inhaliert Wirkdauer": "",
+        "Wirkdauer Inhaliert Wirkungseintritt": "",
+        "Wirkdauer Nasal Peak": "40 - 60 Min.",
+        "Wirkdauer Nasal Wirkdauer": "1,5 - 3 Std.",
+        "Wirkdauer Nasal Wirkungseintritt": "10 - 20 Min.",
+        "Wirkdauer Oral Peak": "2 - 3 Std.",
+        "Wirkdauer Oral Wirkdauer": "3 - 6 Std.",
+        "Wirkdauer Oral Wirkungseintritt": "20 - 60 Min.",
+        "Wirkung Negativ": "Anspannung der Kiefermuskulatur, Übelkeit, Paranoia, starker Nachlegedrang, Herz-Kreislauf-Probleme, Durchblutungsprobleme (kalte Hände und Füße), sexuelle Funktionsstörungen, depressive Stimmung beim Comedown und den darauffolgenden Tagen",
+        "Wirkung Neutral": "Stimulierend, verminderter Appetit, Erhöhung des Blutdrucks und des Pulses, Anstieg der Körpertemperatur",
+        "Wirkung Positiv": "Stimmungshebend, euphorisierend, gesteigerte Sinneswahrnehmung, verstärkter Drang zur Kommunikation, starke Gefühle von Liebe und Empathie, Steigerung der Libido",
+        "comment": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Beide Substanzen sind bekannt dafür, dass sie ein starkes Verlangen zum Nachlegen auslösen. Am stärksten ist dieser Drang beim Nachlassen der Wirkung. Bei oralem Konsum tritt dieser Drang deutlich schwächer auf.",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "80 - 125 mg",
+                "Leichte Dosis": "15 - 45 mg",
+                "Mittlere Dosis": "45 - 80 mg"
+            },
+            "Oral": {
+                "Hohe Dosis": "200 - 300 mg",
+                "Leichte Dosis": "50 - 100 mg",
+                "Mittlere Dosis": "100 - 200 mg"
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "40 - 60 Min.",
+                "Wirkdauer": "1,5 - 3 Std.",
+                "Wirkungseintritt": "10 - 20 Min."
+            },
+            "Oral": {
+                "Peak": "2 - 3 Std.",
+                "Wirkdauer": "3 - 6 Std.",
+                "Wirkungseintritt": "20 - 60 Min."
+            }
+        }
+    },
+    "Amphetamin": {
+        "Beschreibung": "Speed / Pepp ist die umgangssprachliche Bezeichnung für das Stimulans Amphetamin.",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "",
+        "Dosierung Inhaliert Hohe Dosis": "",
+        "Dosierung Inhaliert Leichte Dosis": "",
+        "Dosierung Inhaliert Mittlere Dosis": "",
+        "Dosierung Kommentar": "Speed hat einen stark schwankenden Reinheitsgehalt und wird häufig mit verschiedenen Stoffen (überwiegend Koffein) gestreckt. Vorsichtig und niedrig dosiert antesten!",
+        "Dosierung Nasal Hohe Dosis": "Ab 30-50 mg",
+        "Dosierung Nasal Leichte Dosis": "5 -20 mg",
+        "Dosierung Nasal Mittlere Dosis": "20-40 mg",
+        "Dosierung Oral Hohe Dosis": "Ab 25-50 mg",
+        "Dosierung Oral Leichte Dosis": "5-10 mg",
+        "Dosierung Oral Mittlere Dosis": "10-25 mg",
+        "Erscheinungsform": "Weißes/beiges Pulver, mehlig oder feucht als Paste",
+        "Kombinationen Gefährlich": "Hoher Alkoholkonsum (Wahrnehmung der Trunkenheit durch Amphetamin unterdrückt), DXM, MAO-Hemmer (z. B. einige Antidepressiva), Tramadol",
+        "Kombinationen Verringert": "Alkohol, Benzodiazepine, GBL und GHB, Psychedelika (z. B. LSD, Pilze, 2C-B), Ketamin, Opioide",
+        "Kombinationen Verstärkt": "Lachgas",
+        "Konsumform": "Oral oder nasal",
+        "Toleranz": "Regelmäßiger Amphetaminkonsum führt zum Aufbau einer Toleranz. Diese ist nach zwei Wochen vollständig abgebaut. Es herrscht eine Kreuztoleranz zu anderen Stimulanzien (z. B. Kokain).",
+        "VIVID Safer-Use Tipps": "- Eigenes Ziehröhrchen sowie saubere Ziehfläche verwenden \n- Substanz trocknen (wegen gesundheitsschädlicher Lösungsmittel) \n- Substanz gründlich zerkleinern \n- Ausreichend Wasser trinken \n- Tanzpausen einlegen\n\n> Häufiges Nachdosieren erhöht das Risiko von Neben- und Nachwirkungen.",
+        "Wirkdauer Geraucht/Verdampft Peak": "",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "",
+        "Wirkdauer Inhaliert Peak": "",
+        "Wirkdauer Inhaliert Wirkdauer": "",
+        "Wirkdauer Inhaliert Wirkungseintritt": "",
+        "Wirkdauer Nasal Peak": "1-2 Stunden",
+        "Wirkdauer Nasal Wirkdauer": "6- 8 Stunden",
+        "Wirkdauer Nasal Wirkungseintritt": "5-10 Minuten",
+        "Wirkdauer Oral Peak": "2-4 Stunden",
+        "Wirkdauer Oral Wirkdauer": "8-10 Stunden",
+        "Wirkdauer Oral Wirkungseintritt": "15-30 Minuten",
+        "Wirkung Negativ": "Herzrasen, Übelkeit, Schwindel, Dehydrierung, Schädigung der Nasenschleimhaut, Paranoia",
+        "Wirkung Neutral": "Fokussierend, verminderter Appetit, Schlaflosigkeit, Erhöhung der Körpertemperatur und des Pulses, Steigerung der Libido",
+        "Wirkung Positiv": "Stimulierend, euphorisches Körpergefühl",
+        "comment": "Speed hat einen stark schwankenden Reinheitsgehalt und wird häufig mit verschiedenen Stoffen (überwiegend Koffein) gestreckt. Vorsichtig und niedrig dosiert antesten!",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "Ab 30-50 mg",
+                "Leichte Dosis": "5 -20 mg",
+                "Mittlere Dosis": "20-40 mg"
+            },
+            "Oral": {
+                "Hohe Dosis": "Ab 25-50 mg",
+                "Leichte Dosis": "5-10 mg",
+                "Mittlere Dosis": "10-25 mg"
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "1-2 Stunden",
+                "Wirkdauer": "6- 8 Stunden",
+                "Wirkungseintritt": "5-10 Minuten"
+            },
+            "Oral": {
+                "Peak": "2-4 Stunden",
+                "Wirkdauer": "8-10 Stunden",
+                "Wirkungseintritt": "15-30 Minuten"
+            }
+        }
+    },
+    "DMT": {
+        "Beschreibung": "DMT ist ein Psychedelikum, das  besonders für seine intensiven vi suellen Effekte und kurze Wirkdauer  bekannt ist. ",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "30 - 50 mg",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "5 - 15 mg",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "15 - 30 mg",
+        "Dosierung Inhaliert Hohe Dosis": "",
+        "Dosierung Inhaliert Leichte Dosis": "",
+        "Dosierung Inhaliert Mittlere Dosis": "",
+        "Dosierung Kommentar": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Die  Wirkung von DMT in Kombination mit einem MAO-Hemmer hält länger  an. Dies ist z. B. bei der Rauchmischung Changa und dem Pflanzensud  Ayahuasca der Fall. ",
+        "Dosierung Nasal Hohe Dosis": "",
+        "Dosierung Nasal Leichte Dosis": "",
+        "Dosierung Nasal Mittlere Dosis": "",
+        "Dosierung Oral Hohe Dosis": "",
+        "Dosierung Oral Leichte Dosis": "",
+        "Dosierung Oral Mittlere Dosis": "",
+        "Erscheinungsform": "Farblose bis gelbliche Kristalle - ggf. gelöst in E-Liquid, süßlicher/blumiger Geruch",
+        "Kombinationen Gefährlich": "MDMA (nur wenn DMT als Changa oder Ayahuasca kon sumiert wird), irreversible MAO-Hemmer (z. B. einige Antidepressiva),  Tramadol ",
+        "Kombinationen Verringert": "Alkohol, Benzodiazepine, Serotonin-Wiederaufnahme hemmer ",
+        "Kombinationen Verstärkt": "Cannabis, Ketamin, Lachgas, Psychedelika (z. B. LSD,  Pilze, 2C-B) ",
+        "Konsumform": "Geraucht/verdampft, oral mit MAO-Hemmer",
+        "Toleranz": "Konsum führt nicht zu einer physiologischen Toleranz. Dadurch ist eine  schrittweise Erhöhung der Dosis bis zur gewünschten Wirkung möglich.  Bei wiederholtem Konsum der gleichen Dosis innerhalb kurzer Zeit ist eine  ähnliche Wirkung zu erwarten.  ",
+        "VIVID Safer-Use Tipps": "- Anwesenheit einer nüchternen Bezugsperson\n- Nicht verwechseln mit dem wesentlich potenteren 5-MeO-DMT\n- Verdampfen, um Schadstoffe, die bei der Verbrennung entstehen,\nzu vermeiden\nSetze oder lege dich beim Konsum hin, damit du bei überraschend starker\nWirkung nicht stürzt. Achte beim Konsum mit einer Pfeife darauf, dass du\ndich während des Trips nicht verbrennst. Wenn es dir zu viel wird, kann es\nberuhigend wirken, die Augen zu öffnen. Beachte deine allgemeine\n\nVerfassung (Set) und deine Umgebung (Setting) - beides hat einen erheb-\nlichen Einfluss auf deine Erfahrung. Trotz der nicht vorhandenen Toleranz-\nbildung und kurzen Wirkungsdauer, solltest du dir dennoch Zeit nehmen, um deinen [dmt](https://lh3.googleusercontent.com/pw/ABLVV86TYir8Jk0LJTt14pl-cUzIGDlNlsf1EJwy4_wKeouvL1UdgMxI8uMQKNEWwmNsBMw8G2DTysFk5n5PHeJJaz_Qw1b7el_OMbMaVaURUSyrebe_RT-4dGIKa5t7H6ITw_y1w0VNmcDz52hMBPwe0Zqn=w717-h956-s-no-gm) Trip zu verarbeiten und die Erfahrungen zu integrieren, bevor du das nächste Mal Psychedelika konsumierst.",
+        "Wirkdauer Geraucht/Verdampft Peak": "30 Sekunden",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "15 - 20 Minuten",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "10 - 20 Sekunden",
+        "Wirkdauer Inhaliert Peak": "",
+        "Wirkdauer Inhaliert Wirkdauer": "",
+        "Wirkdauer Inhaliert Wirkungseintritt": "",
+        "Wirkdauer Nasal Peak": "",
+        "Wirkdauer Nasal Wirkdauer": "",
+        "Wirkdauer Nasal Wirkungseintritt": "",
+        "Wirkdauer Oral Peak": "",
+        "Wirkdauer Oral Wirkdauer": "",
+        "Wirkdauer Oral Wirkungseintritt": "",
+        "Wirkung Negativ": "Übelkeit (hauptsächlich bei Ayahuasca), Einschränkung des Kurz zeitgedächtnisses, abnehmende Konzentration, Verwirrung bis hin zu Paranoia, Orientierungslosigkeit, angstvolle Ich-Auflösung (ego-death) ",
+        "Wirkung Neutral": "Stimulierend, verminderter Appetit, Erhöhung des Blutdrucks und  des Pulses, auditive Effekte ",
+        "Wirkung Positiv": "Stimmungshebend, euphorisierend, gesteigerte Sinneswahrneh mung, Visuals (Morphen von Formen, erhöhte Farbintensität, geometrische  Muster, Begegnung mit Entitäten), erhöhte Kreativität und Emotionalität,  spirituelle Zustände \n",
+        "comment": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Die  Wirkung von DMT in Kombination mit einem MAO-Hemmer hält länger  an. Dies ist z. B. bei der Rauchmischung Changa und dem Pflanzensud  Ayahuasca der Fall. ",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "",
+                "Leichte Dosis": "",
+                "Mittlere Dosis": ""
+            },
+            "Oral": {
+                "Hohe Dosis": "",
+                "Leichte Dosis": "",
+                "Mittlere Dosis": ""
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "",
+                "Wirkdauer": "",
+                "Wirkungseintritt": ""
+            },
+            "Oral": {
+                "Peak": "",
+                "Wirkdauer": "",
+                "Wirkungseintritt": ""
+            }
+        }
+    },
+    "GBL": {
+        "Beschreibung": "GBL und GHB, auch Liquid Ecstasy oder G (englisch ausgesprochen) genannt, sind Downer. GBL wird im Körper zu GHB verstoffwechselt.",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "",
+        "Dosierung Inhaliert Hohe Dosis": "",
+        "Dosierung Inhaliert Leichte Dosis": "",
+        "Dosierung Inhaliert Mittlere Dosis": "",
+        "Dosierung Kommentar": "Höhere Dosierungen können die Wirkdauer verlängern und, insbesondere in Kombination mit Alkohol und anderen Downern, lebensbedrohlich werden.",
+        "Dosierung Nasal Hohe Dosis": "",
+        "Dosierung Nasal Leichte Dosis": "",
+        "Dosierung Nasal Mittlere Dosis": "",
+        "Dosierung Oral Hohe Dosis": "1.5-2 ml",
+        "Dosierung Oral Leichte Dosis": "0.3-0.9 ml",
+        "Dosierung Oral Mittlere Dosis": "0.9-1.5 ml",
+        "Erscheinungsform": "Farblose Flüssigkeit mit starkem Lösungsmittelgeschmack und -geruch (GBL), geruchlos und salzig (GHB)",
+        "Kombinationen Gefährlich": "Alkohol, DXM, Ketamin, Opioide, Benzodiazepine, Tramadol",
+        "Kombinationen Verringert": "Psychedelika (z. B. LSD, Pilze, 2C-B)",
+        "Kombinationen Verstärkt": "Cannabis",
+        "Konsumform": "Oral",
+        "Toleranz": "Regelmäßiger Konsum führt zum Aufbau einer Toleranz. Diese ist nach ein bis zwei Wochen vollständig abgebaut. GBL und GHB Konsum kann zu körperlicher Abhängigkeit führen. Entzug nur unter ärztlicher Betreuung - plötzliches Absetzen kann ähnlich wie bei Alkoholabhängigkeit lebensgefährlich sein.",
+        "VIVID Safer-Use Tipps": "- Nie per Augenmaß dosieren\n- Pipette oder Spritze mit genauer Maßeinheit verwenden\n- Nachdosieren erst nach 90 Minuten (Timer stellen)\n\n> Auch ohne gefühlte Wirkung kann noch GHB im Körper sein und bei weiterem Konsum zur Überdosierung führen. Um Zähne und Rachen zu schützen, sollte GBL nur stark verdünnt konsumiert werden. GBL und GHB sind auch unter dem Namen Liquid Ecstasy bekannt, wobei die beiden Substanze und deren Effekte nicht denen von MDMA oder Ecstasy ähnlich sind.",
+        "Wirkdauer Geraucht/Verdampft Peak": "",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "",
+        "Wirkdauer Inhaliert Peak": "",
+        "Wirkdauer Inhaliert Wirkdauer": "",
+        "Wirkdauer Inhaliert Wirkungseintritt": "",
+        "Wirkdauer Nasal Peak": "",
+        "Wirkdauer Nasal Wirkdauer": "",
+        "Wirkdauer Nasal Wirkungseintritt": "",
+        "Wirkdauer Oral Peak": "30-45 Minuten",
+        "Wirkdauer Oral Wirkdauer": "1-3 Stunden",
+        "Wirkdauer Oral Wirkungseintritt": "5- 15 Minuten",
+        "Wirkung Negativ": "In höheren Dosen stark sedierend bis zur Bewusstlosigkeit, Verschiebung der persönlichen Grenzen, Gefahr einer Atemdepression, Übelkeit, Magenschmerzen, Gedächtnisverlust, Schwindel",
+        "Wirkung Neutral": "In niedrigen Dosen stimulierend",
+        "Wirkung Positiv": "Enthemmend, angstlösend, körperliche Entspannung, Euphorie, Steigerung der Libido",
+        "comment": "Höhere Dosierungen können die Wirkdauer verlängern und, insbesondere in Kombination mit Alkohol und anderen Downern, lebensbedrohlich werden.",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "",
+                "Leichte Dosis": "",
+                "Mittlere Dosis": ""
+            },
+            "Oral": {
+                "Hohe Dosis": "1.5-2 ml",
+                "Leichte Dosis": "0.3-0.9 ml",
+                "Mittlere Dosis": "0.9-1.5 ml"
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "",
+                "Wirkdauer": "",
+                "Wirkungseintritt": ""
+            },
+            "Oral": {
+                "Peak": "30-45 Minuten",
+                "Wirkdauer": "1-3 Stunden",
+                "Wirkungseintritt": "5- 15 Minuten"
+            }
+        }
+    },
+    "GHB": {
+        "Beschreibung": "GBL und GHB sind Downer, wobei GBL meistens im Partysetting konsumiert wird und dabei im Körper zu GHB verstoffwechselt wird.",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "",
+        "Dosierung Inhaliert Hohe Dosis": "",
+        "Dosierung Inhaliert Leichte Dosis": "",
+        "Dosierung Inhaliert Mittlere Dosis": "",
+        "Dosierung Kommentar": "Höhere Dosierungen können die Wirkdauer verlängern und, insbesondere in Kombination mit Alkohol und anderen Downern, lebensbedrohlich werden.",
+        "Dosierung Nasal Hohe Dosis": "",
+        "Dosierung Nasal Leichte Dosis": "",
+        "Dosierung Nasal Mittlere Dosis": "",
+        "Dosierung Oral Hohe Dosis": "2.5-4 ml",
+        "Dosierung Oral Leichte Dosis": "0.3-1 ml",
+        "Dosierung Oral Mittlere Dosis": "1-2.5 ml",
+        "Erscheinungsform": "Farblose Flüssigkeit mit starkem Lösungsmittelgeschmack und -geruch (GBL), geruchlos und salzig (GHB)",
+        "Kombinationen Gefährlich": "Alkohol, DXM, Ketamin, Opioide, Benzodiazepine, Tramadol",
+        "Kombinationen Verringert": "Psychedelika (z. B. LSD, Pilze, 2C-B)",
+        "Kombinationen Verstärkt": "Cannabis",
+        "Konsumform": "Oral",
+        "Toleranz": "Regelmäßiger Konsum führt zum Aufbau einer Toleranz. Diese ist nach ein bis zwei Wochen vollständig abgebaut. GBL und GHB Konsum kann zu körperlicher Abhängigkeit führen. Entzug nur unter ärztlicher Betreuung - plötzliches Absetzen kann ähnlich wie bei Alkoholabhängigkeit lebensgefährlich sein.",
+        "VIVID Safer-Use Tipps": "- Nie per Augenmaß dosieren\n- Pipette oder Spritze mit genauer Maßeinheit verwenden\n- Nachdosieren erst nach 90 Minuten (Timer stellen)\n\n> Auch ohne gefühlte Wirkung kann noch GHB im Körper sein und bei weiterem Konsum zur Überdosierung führen. Um Zähne und Rachen zu schützen, sollte GBL nur stark verdünnt konsumiert werden. GBL und GHB sind auch unter dem Namen Liquid Ecstasy bekannt, wobei die beiden Substanze und deren Effekte nicht denen von MDMA oder Ecstasy ähnlich sind.",
+        "Wirkdauer Geraucht/Verdampft Peak": "",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "",
+        "Wirkdauer Inhaliert Peak": "",
+        "Wirkdauer Inhaliert Wirkdauer": "",
+        "Wirkdauer Inhaliert Wirkungseintritt": "",
+        "Wirkdauer Nasal Peak": "",
+        "Wirkdauer Nasal Wirkdauer": "",
+        "Wirkdauer Nasal Wirkungseintritt": "",
+        "Wirkdauer Oral Peak": "45-90 Minuten",
+        "Wirkdauer Oral Wirkdauer": "2-4 Stunden",
+        "Wirkdauer Oral Wirkungseintritt": "10-20 Minuten",
+        "Wirkung Negativ": "In höheren Dosen stark sedierend bis zur Bewusstlosigkeit, Verschiebung der persönlichen Grenzen, Gefahr einer Atemdepression, Übelkeit, Magenschmerzen, Gedächtnisverlust, Schwindel",
+        "Wirkung Neutral": "In niedrigen Dosen stimulierend",
+        "Wirkung Positiv": "Enthemmend, angstlösend, körperliche Entspannung, Euphorie, Steigerung der Libido",
+        "comment": "Höhere Dosierungen können die Wirkdauer verlängern und, insbesondere in Kombination mit Alkohol und anderen Downern, lebensbedrohlich werden.",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "",
+                "Leichte Dosis": "",
+                "Mittlere Dosis": ""
+            },
+            "Oral": {
+                "Hohe Dosis": "2.5-4 ml",
+                "Leichte Dosis": "0.3-1 ml",
+                "Mittlere Dosis": "1-2.5 ml"
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "",
+                "Wirkdauer": "",
+                "Wirkungseintritt": ""
+            },
+            "Oral": {
+                "Peak": "45-90 Minuten",
+                "Wirkdauer": "2-4 Stunden",
+                "Wirkungseintritt": "10-20 Minuten"
+            }
+        }
+    },
+    "Ketamin": {
+        "Beschreibung": "Ketamin ist ein dissoziatives Anästhetikum, welches sowohl in der Tier- als auch Humanmedizin verwendet wird.",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "",
+        "Dosierung Inhaliert Hohe Dosis": "",
+        "Dosierung Inhaliert Leichte Dosis": "",
+        "Dosierung Inhaliert Mittlere Dosis": "",
+        "Dosierung Kommentar": "Höhere Dosierungen können die Wirkdauer verlängern, das dissoziative Rauscherleben intensivieren (K-Hole) und bis zum Verlust des Bewusstseins führen. Ketamin kommt in zwei Isomeren (S-Ketamin, R-Ketamin) vor, die unterschiedlich stark und lang wirken. Diese Isomere können getrennt oder als Mischung (Racemat) vorliegen. Vorsichtig und niedrig dosiert antesten.",
+        "Dosierung Nasal Hohe Dosis": "Ab 75 mg",
+        "Dosierung Nasal Leichte Dosis": "10-30 mg",
+        "Dosierung Nasal Mittlere Dosis": "30-75 mg",
+        "Dosierung Oral Hohe Dosis": "Ab 300 mg",
+        "Dosierung Oral Leichte Dosis": "50-100 mg",
+        "Dosierung Oral Mittlere Dosis": "100-300 mg",
+        "Erscheinungsform": "Weißes Pulver oder Kristalle in verschiedenen Formen, geruchlos, leicht säuerlicher Geschmack",
+        "Kombinationen Gefährlich": "Alkohol, Benzodiazepine, GBL und GHB, Opioide, Tramadol \n- Ketamin selber wirkt nicht atemdepressiv, kann aber in Kombination mit anderen sedierenden Substanzen die Atmung gefährlich verringern!",
+        "Kombinationen Verringert": "-",
+        "Kombinationen Verstärkt": "Cannabis, Lachgas, MDMA, Psychedelika (z. B. LSD, Pilze, 2C-B), Kokain",
+        "Konsumform": "Nasal oder intravenös, seltener auch oral",
+        "Toleranz": "Wenige Stunden nach Erstkonsum beginnt eine langsame Toleranzbildung. Diese ist nach ein bis zwei Wochen vollständig abgebaut.",
+        "VIVID Safer-Use Tipps": "- Eigenes Ziehröhrchen sowie saubere Ziehfläche verwenden \n- Kristalle gründlich zerkleinern \n\n> Durch die betäubende Wirkung kann es, insbesondere auch bei der Kombination mit Stimulanzien, unbemerkt zu Verletzungen kommen. Bei höherer Dosierung und speziell im K-Hole sollte auf freie Atemwege geachtet werden (ggf. stabile Seitenlage, nicht Trinken), um das Risiko von Verschlucken zu verringern. Regelmäßiger hoher Konsum kann zu Schäden an der Blase führen. Setze oder lege dich nach der Einnahme hin und warte 20 Minuten bis die volle Wirkung eingetreten ist, damit du bei überraschend starker Wirkung nicht stürzt.",
+        "Wirkdauer Geraucht/Verdampft Peak": "",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "",
+        "Wirkdauer Inhaliert Peak": "",
+        "Wirkdauer Inhaliert Wirkdauer": "",
+        "Wirkdauer Inhaliert Wirkungseintritt": "",
+        "Wirkdauer Nasal Peak": "30-60 Minuten",
+        "Wirkdauer Nasal Wirkdauer": "1- 2 Stunden",
+        "Wirkdauer Nasal Wirkungseintritt": "5-10 Minuten",
+        "Wirkdauer Oral Peak": "45-90 Minuten",
+        "Wirkdauer Oral Wirkdauer": "2-4 Stunden",
+        "Wirkdauer Oral Wirkungseintritt": "15-30 Minuten",
+        "Wirkung Negativ": "Übelkeit, Erbrechen, Orientierungslosigkeit, Unfähigkeit sich zu bewegen oder sich mitzuteilen, Bewusstlosigkeit, angstvolle Ich-Auflösung (ego-death)",
+        "Wirkung Neutral": "Fragmentierte und intensivierte Sinneswahrnehmung, verringertes Körpergefühl und verringerte Aufmerksamkeit, eingeschränkte Koordination",
+        "Wirkung Positiv": "Leichtigkeit, Entspannung, Stimmungsaufhellung, spirituelle Zustände",
+        "comment": "Höhere Dosierungen können die Wirkdauer verlängern, das dissoziative Rauscherleben intensivieren (K-Hole) und bis zum Verlust des Bewusstseins führen. Ketamin kommt in zwei Isomeren (S-Ketamin, R-Ketamin) vor, die unterschiedlich stark und lang wirken. Diese Isomere können getrennt oder als Mischung (Racemat) vorliegen. Vorsichtig und niedrig dosiert antesten.",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "Ab 75 mg",
+                "Leichte Dosis": "10-30 mg",
+                "Mittlere Dosis": "30-75 mg"
+            },
+            "Oral": {
+                "Hohe Dosis": "Ab 300 mg",
+                "Leichte Dosis": "50-100 mg",
+                "Mittlere Dosis": "100-300 mg"
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "30-60 Minuten",
+                "Wirkdauer": "1- 2 Stunden",
+                "Wirkungseintritt": "5-10 Minuten"
+            },
+            "Oral": {
+                "Peak": "45-90 Minuten",
+                "Wirkdauer": "2-4 Stunden",
+                "Wirkungseintritt": "15-30 Minuten"
+            }
+        }
+    },
+    "Kokain": {
+        "Beschreibung": "Kokain ist ein aus den Blättern des Cocastrauchs gewonnenes Stimulans.",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "",
+        "Dosierung Inhaliert Hohe Dosis": "",
+        "Dosierung Inhaliert Leichte Dosis": "",
+        "Dosierung Inhaliert Mittlere Dosis": "",
+        "Dosierung Kommentar": "Kokain hat einen stark schwankenden Reinheitsgehalt und wird häufig mit verschiedenen Stoffen gestreckt. Vorsichtig und niedrig dosiert antesten!",
+        "Dosierung Nasal Hohe Dosis": "Ab 60 mg",
+        "Dosierung Nasal Leichte Dosis": "10-30 mg",
+        "Dosierung Nasal Mittlere Dosis": "30-60 mg",
+        "Dosierung Oral Hohe Dosis": "",
+        "Dosierung Oral Leichte Dosis": "",
+        "Dosierung Oral Mittlere Dosis": "",
+        "Erscheinungsform": "Weißes Pulver.",
+        "Kombinationen Gefährlich": "Hoher Alkoholkonsum (Wahrnehmung der Trunkenheit durch Kokain unterdrückt), Betablocker, DXM, MAO-Hemmer (z. B. einige Antidepressiva), Opioide, Tramadol",
+        "Kombinationen Verringert": "Alkohol, Benzodiazepine",
+        "Kombinationen Verstärkt": "Lachgas",
+        "Konsumform": "Nasal, intravenös oder geraucht als Crack",
+        "Toleranz": "Regelmäßiger Kokainkonsum führt zum Aufbau einer Toleranz. Diese ist nach ein bis zwei Wochen vollständig abgebaut. Es herrscht eine Kreuztoleranz zu anderen Stimulanzien (z. B. Amphetamin).",
+        "VIVID Safer-Use Tipps": "- Eigenes Ziehröhrchen sowie saubere Ziehfläche verwenden \n- Substanz gründlich zerkleinern \n- Ausreichend Wasser trinken \n- Tanzpausen einlegen \n\n> Häufiges Nachdosieren erhöht das Risiko von Neben- und Nachwirkungen.",
+        "Wirkdauer Geraucht/Verdampft Peak": "",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "",
+        "Wirkdauer Inhaliert Peak": "",
+        "Wirkdauer Inhaliert Wirkdauer": "",
+        "Wirkdauer Inhaliert Wirkungseintritt": "",
+        "Wirkdauer Nasal Peak": "15-30 Minuten",
+        "Wirkdauer Nasal Wirkdauer": "30-60 Minuten",
+        "Wirkdauer Nasal Wirkungseintritt": "5-15 Minuten",
+        "Wirkdauer Oral Peak": "",
+        "Wirkdauer Oral Wirkdauer": "",
+        "Wirkdauer Oral Wirkungseintritt": "",
+        "Wirkung Negativ": "Belastung des Herz-Kreislaufsystems, erhöhtes Risiko eines Herzinfarktes, Angst, innere Unruhe, gesteigerte Aggressivität, Übelkeit, leichte Krämpfe und Zittern, Schädigung der Nasenschleimhaut, Paranoia",
+        "Wirkung Neutral": "Beschleunigter Stoffwechsel, Anstieg der Atemfrequenz, verminderter Appetit, Schlaflosigkeit, Erhöhung der Körpertemperatur und Puls, vermindertes Schmerzempfinden, erhöhte Risikobereitschaft, Steigerung der Libido, starker Redebedarf",
+        "Wirkung Positiv": "Stimulierend, euphorisierend, gesteigertes Selbstvertrauen, Gefühl von Stärke, Ausgelassenheit",
+        "comment": "Kokain hat einen stark schwankenden Reinheitsgehalt und wird häufig mit verschiedenen Stoffen gestreckt. Vorsichtig und niedrig dosiert antesten!",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "Ab 60 mg",
+                "Leichte Dosis": "10-30 mg",
+                "Mittlere Dosis": "30-60 mg"
+            },
+            "Oral": {
+                "Hohe Dosis": "",
+                "Leichte Dosis": "",
+                "Mittlere Dosis": ""
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "15-30 Minuten",
+                "Wirkdauer": "30-60 Minuten",
+                "Wirkungseintritt": "5-15 Minuten"
+            },
+            "Oral": {
+                "Peak": "",
+                "Wirkdauer": "",
+                "Wirkungseintritt": ""
+            }
+        }
+    },
+    "LSD": {
+        "Beschreibung": "LSD, umgangssprachlich auch Acid genannt, ist ein Psychedelikum, welches bereits im Mikrogrammbereich wirksam ist.",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "",
+        "Dosierung Inhaliert Hohe Dosis": "",
+        "Dosierung Inhaliert Leichte Dosis": "",
+        "Dosierung Inhaliert Mittlere Dosis": "",
+        "Dosierung Kommentar": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Ein gefüllter Magen kann den Wirkungseintritt merklich verzögern, sowie die Intensität verringern.",
+        "Dosierung Nasal Hohe Dosis": "",
+        "Dosierung Nasal Leichte Dosis": "",
+        "Dosierung Nasal Mittlere Dosis": "",
+        "Dosierung Oral Hohe Dosis": "150-300 µg",
+        "Dosierung Oral Leichte Dosis": "25-75 µg",
+        "Dosierung Oral Mittlere Dosis": "75-150 µg",
+        "Erscheinungsform": "In Lösungsmittel, auf Papierstücken - genannt\nBlotter oder Pappen - und in Pillen\n(Micros)",
+        "Kombinationen Gefährlich": "Tramadol",
+        "Kombinationen Verringert": "Alkohol, Benzodiazepine, GBL und GHB, Serotonin- Wiederaufnahmehemmer",
+        "Kombinationen Verstärkt": "Cannabis, DXM, Ketamin, Lachgas, MDMA, Psychedelika (z. B. DMT, Pilze, 2C-B)",
+        "Konsumform": "Oral oder sublingual",
+        "Toleranz": "Nach einem Tag baut sich eine Toleranz auf, die ca. eine Woche anhält. Eine Kreuztoleranz mit den meisten anderen psychedelischen Substanzen ist vorhanden.",
+        "VIVID Safer-Use Tipps": " - Freund*innen über konsumierte Menge informieren \n - Anwesenheit einer nüchternen Bezugsperson \n\n> Beachte deine allgemeine Verfassung (Set) und deine Umgebung (Setting) - beides hat einen erheblichen Einfluss auf deine Erfahrung. Wenn es dir zu viel wird, kann es beruhigend wirken die Umgebung zu wechseln und etwas zu essen/trinken. In großen Gruppen zu agieren und sich abzusprechen kann schwierig werden. Aufgrund der langen Wirkdauer, ist es empfehlenswert bereits im Vorfeld eines Trips für Essen und Trinken sowie Rückzugsorte zu sorgen. Nimm dir Zeit, deinen Trip zu verarbeiten und die Erfahrungen zu integrieren, bevor du das nächste Mal Psychedelika konsumierst.",
+        "Wirkdauer Geraucht/Verdampft Peak": "",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "",
+        "Wirkdauer Inhaliert Peak": "",
+        "Wirkdauer Inhaliert Wirkdauer": "",
+        "Wirkdauer Inhaliert Wirkungseintritt": "",
+        "Wirkdauer Nasal Peak": "",
+        "Wirkdauer Nasal Wirkdauer": "",
+        "Wirkdauer Nasal Wirkungseintritt": "",
+        "Wirkdauer Oral Peak": "1-2 Stunden / 2-3 Stunden",
+        "Wirkdauer Oral Wirkdauer": "8-12 Stunden",
+        "Wirkdauer Oral Wirkungseintritt": "20-60 Minuten",
+        "Wirkung Negativ": "Übelkeit, Schlaflosigkeit, Einschränkung des Kurzzeitgedächtnisses, abnehmende Konzentration, Verwirrung bis hin zu Paranoia, angstvolle Ich-Auflösung (ego-death)",
+        "Wirkung Neutral": "Stimulierend, Erhöhung der Körpertemperatur und des Pulses, sprunghafte Emotionen und Gedanken, verminderter Appetit",
+        "Wirkung Positiv": "Stimmungshebend, euphorisierend, gesteigerte Sinneswahrnehmung, Visuals (Morphen von Formen, erhöhte Farbintensität, geometrische Muster), erhöhte Kreativität und Emotionalität, spirituelle Zustände",
+        "comment": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Ein gefüllter Magen kann den Wirkungseintritt merklich verzögern, sowie die Intensität verringern.",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "",
+                "Leichte Dosis": "",
+                "Mittlere Dosis": ""
+            },
+            "Oral": {
+                "Hohe Dosis": "150-300 µg",
+                "Leichte Dosis": "25-75 µg",
+                "Mittlere Dosis": "75-150 µg"
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "",
+                "Wirkdauer": "",
+                "Wirkungseintritt": ""
+            },
+            "Oral": {
+                "Peak": "1-2 Stunden / 2-3 Stunden",
+                "Wirkdauer": "8-12 Stunden",
+                "Wirkungseintritt": "20-60 Minuten"
+            }
+        }
+    },
+    "Lachgas": {
+        "Beschreibung": "Lachgas ist ein dissoziatives Anästhetikum, das in Kapseln oder Gasflaschen erhältlich ist.",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "",
+        "Dosierung Inhaliert Hohe Dosis": "2 - 5 Kapseln (16 - 40 g)",
+        "Dosierung Inhaliert Leichte Dosis": "1⁄2 - 1 Kapsel (4 - 8 g)",
+        "Dosierung Inhaliert Mittlere Dosis": "1 - 2 Kapseln (8 - 16g)",
+        "Dosierung Kommentar": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Die Wirkung hängt zudem stark davon ab, wie lange das Gas in der Lunge behalten wird. Eine handelsübliche Kapsel enthält im Durchschnitt acht Gramm Lachgas.",
+        "Dosierung Nasal Hohe Dosis": "",
+        "Dosierung Nasal Leichte Dosis": "",
+        "Dosierung Nasal Mittlere Dosis": "",
+        "Dosierung Oral Hohe Dosis": "",
+        "Dosierung Oral Leichte Dosis": "",
+        "Dosierung Oral Mittlere Dosis": "",
+        "Erscheinungsform": "Farbloses und geruchloses Gas",
+        "Kombinationen Gefährlich": "Hoher Alkoholkonsum (erhöhtes Risiko einer Atemdepression), Poppers",
+        "Kombinationen Verringert": "Benzodiazepine",
+        "Kombinationen Verstärkt": "Cannabis, Ketamin, Psychedelika (z. B. LSD, Pilze, 2C-B)",
+        "Konsumform": "Inhalation",
+        "Toleranz": "Bei wiederholtem Konsum bildet sich eine geringe Toleranz. Diese ist in der Praxis aber vernachlässigbar. Es ist also eine schrittweise Erhöhung der Dosis bis zur gewünschten Wirkung möglich.",
+        "VIVID Safer-Use Tipps": "Konsumiere Lachgas nie direkt aus der Kapsel oder Flasche, da die Gefahr von Erfrierungen an Mund und Lunge besteht. Keine Atemmaske zur Inhalation benutzen, denn bei Bewusstseinsverlust kann durch weiter strömendes Gas Erstickungsgefahr entstehen. Nutze stattdessen einen Luftballon. Setze oder lege dich beim Konsum hin, damit du bei überraschend starker Wirkung nicht stürzt. Zwischen den Zügen ausreichend atmen, um Sauerstoffmangel zu vermeiden. Regelmäßiger Konsum kann zu Nervenschädigungen führen.\nLasse daher anhaltende Taubheitsgefühle in den Extremitäten frühzeitig\närztlich abklären.",
+        "Wirkdauer Geraucht/Verdampft Peak": "",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "",
+        "Wirkdauer Inhaliert Peak": "20 Sek./10 - 30 Sek.",
+        "Wirkdauer Inhaliert Wirkdauer": "1 - 5 Min.",
+        "Wirkdauer Inhaliert Wirkungseintritt": "10 - 20 Sek.",
+        "Wirkdauer Nasal Peak": "",
+        "Wirkdauer Nasal Wirkdauer": "",
+        "Wirkdauer Nasal Wirkungseintritt": "",
+        "Wirkdauer Oral Peak": "",
+        "Wirkdauer Oral Wirkdauer": "",
+        "Wirkdauer Oral Wirkungseintritt": "",
+        "Wirkung Negativ": "Schwindel, Übelkeit, Kopfschmerzen, Einschränkung des Kurzzeitgedächtnisses, abnehmende Konzentration, Verwirrung bis hin zu Paranoia, angstvolle Ich-Auflösung (ego-death)",
+        "Wirkung Neutral": "Verringertes Körpergefühl und verringerte Aufmerksamkeit, kribbelnde Empfindungen, eingeschränkte Koordination, auditive Effekte",
+        "Wirkung Positiv": "Stimmungshebend, euphorisierend, Entspannung, spirituelle Zustände",
+        "comment": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Die Wirkung hängt zudem stark davon ab, wie lange das Gas in der Lunge behalten wird. Eine handelsübliche Kapsel enthält im Durchschnitt acht Gramm Lachgas.",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "",
+                "Leichte Dosis": "",
+                "Mittlere Dosis": ""
+            },
+            "Oral": {
+                "Hohe Dosis": "",
+                "Leichte Dosis": "",
+                "Mittlere Dosis": ""
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "",
+                "Wirkdauer": "",
+                "Wirkungseintritt": ""
+            },
+            "Oral": {
+                "Peak": "",
+                "Wirkdauer": "",
+                "Wirkungseintritt": ""
+            }
+        }
+    },
+    "MDMA": {
+        "Beschreibung": "MDMA ist ein Entaktogen, das ein \r\nGefühl von Verbundenheit erzeugt \r\nsowie die eigene Offenheit und\r\nEmpathie steigert. MDMA ist in\r\nPillenform vor allem unter dem \r\nNamen Ecstasy bekannt.",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "",
+        "Dosierung Inhaliert Hohe Dosis": "",
+        "Dosierung Inhaliert Leichte Dosis": "",
+        "Dosierung Inhaliert Mittlere Dosis": "",
+        "Dosierung Kommentar": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Ein gefüllter \r\nMagen kann den Wirkungseintritt merklich verzögern sowie die Intensität\r\nverringern. Faustregel: 1,0-1,5 mg je kg Körpergewicht. Um die Neben-\r\nwirkungen beim Nachlegen zu minimieren und eine Überdosis zu vermeiden, \r\nempfiehlt es sich, nicht mehr als die Hälfte der Initialdosis zu konsumieren.",
+        "Dosierung Nasal Hohe Dosis": "65-90 mg",
+        "Dosierung Nasal Leichte Dosis": "25–40 mg",
+        "Dosierung Nasal Mittlere Dosis": "40-65 mg",
+        "Dosierung Oral Hohe Dosis": "125-180 mg",
+        "Dosierung Oral Leichte Dosis": "50–75 mg",
+        "Dosierung Oral Mittlere Dosis": "75-125 mg",
+        "Erscheinungsform": "Farblose bis \nbräunliche Kristalle oder als Pille",
+        "Kombinationen Gefährlich": "DXM, MAO-Hemmer (z. B. einige Antidepressiva), Tramadol",
+        "Kombinationen Verringert": "Alkohol, Benzodiazepine, Serotonin- Wiederaufnahmehemmer",
+        "Kombinationen Verstärkt": "Cannabis, Ketamin, Lachgas, Psychedelika (z. B. LSD, Pilze, 2C-B)",
+        "Konsumform": "Oral oder nasal",
+        "Toleranz": "MDMA baut eine sofortige Toleranz auf. Ein erneuter Konsum innerhalb von \r\ndrei Monaten ist bedenklich, da die Stimmungsregulation noch beeinträchtigt \r\nsein kann und sich die volle Wirkung selbst mit einer höheren Dosis nicht \r\nmehr erreichen lässt. Eine Kreuztoleranz mit den meisten anderen Amphe-\r\ntaminen ist vorhanden.",
+        "VIVID Safer-Use Tipps": "-Genaues Dosieren mit einer Milligrammwaage\n- Beim Tanzen ausreichend Wasser trinken\n- Kristalle gründlich zerkleinern\n- Eigenes Ziehröhrchen sowie saubere Ziehfläche verwenden\n- Freund*innen über konsumierte Menge informieren\n\n> Mehrmaliges Nachdosieren erhöht das Risiko von Neben- und Nachwirkungen. Nach einer Konsumpause von drei Monaten ist davon auszugehen, dass der Körper sich erholt hat und eine erneute vollwertige Erfahrung möglich ist.",
+        "Wirkdauer Geraucht/Verdampft Peak": "",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "",
+        "Wirkdauer Inhaliert Peak": "",
+        "Wirkdauer Inhaliert Wirkdauer": "",
+        "Wirkdauer Inhaliert Wirkungseintritt": "",
+        "Wirkdauer Nasal Peak": "1-2 Stunden",
+        "Wirkdauer Nasal Wirkdauer": "2-4 Stunden",
+        "Wirkdauer Nasal Wirkungseintritt": "5-10 Minuten",
+        "Wirkdauer Oral Peak": "2-3 Stunden",
+        "Wirkdauer Oral Wirkdauer": "4-6 Stunden",
+        "Wirkdauer Oral Wirkungseintritt": "30-60 Minuten",
+        "Wirkung Negativ": "Nervosität, Übelkeit, Paranoia, Anspannung der Kiefermuskulatur, \r\nVerschiebung der persönlichen Grenzen, Schlaflosigkeit, depressive\r\nStimmung beim Comedown und den darauffolgenden Tagen, Belastung\r\ndes Herz-Kreislaufsystems",
+        "Wirkung Neutral": "Stimulierend, verminderter Appetit, Erhöhung der Körpertemperatur \r\nund des Pulses, starker Redebedarf",
+        "Wirkung Positiv": "Stimmungshebend, verstärkter Drang zur Kommunikation, starke \r\nGefühle von Liebe und Empathie",
+        "comment": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Ein gefüllter \r\nMagen kann den Wirkungseintritt merklich verzögern sowie die Intensität\r\nverringern. Faustregel: 1,0-1,5 mg je kg Körpergewicht. Um die Neben-\r\nwirkungen beim Nachlegen zu minimieren und eine Überdosis zu vermeiden, \r\nempfiehlt es sich, nicht mehr als die Hälfte der Initialdosis zu konsumieren.",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "65-90 mg",
+                "Leichte Dosis": "25–40 mg",
+                "Mittlere Dosis": "40-65 mg"
+            },
+            "Oral": {
+                "Hohe Dosis": "125-180 mg",
+                "Leichte Dosis": "50–75 mg",
+                "Mittlere Dosis": "75-125 mg"
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "1-2 Stunden",
+                "Wirkdauer": "2-4 Stunden",
+                "Wirkungseintritt": "5-10 Minuten"
+            },
+            "Oral": {
+                "Peak": "2-3 Stunden",
+                "Wirkdauer": "4-6 Stunden",
+                "Wirkungseintritt": "30-60 Minuten"
+            }
+        }
+    },
+    "Pilze": {
+        "Beschreibung": "Pilze, auch genannt Magic\r\nMushrooms, sind ein natürlich\r\nvorkommendes Psychedelikum. \r\nSie enthalten die Wirkstoffe\r\nPsilocybin und Psilocin.",
+        "Dosierung Geraucht/Verdampft Hohe Dosis": "",
+        "Dosierung Geraucht/Verdampft Leichte Dosis": "",
+        "Dosierung Geraucht/Verdampft Mittlere Dosis": "",
+        "Dosierung Inhaliert Hohe Dosis": "",
+        "Dosierung Inhaliert Leichte Dosis": "",
+        "Dosierung Inhaliert Mittlere Dosis": "",
+        "Dosierung Kommentar": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Ein ge-\r\nfüllter Magen kann den Wirkungseintritt merklich verzögern sowie die \r\nIntensität verringern. Bei frischen Pilzen erhöht sich die Dosis um das \r\nZehnfache. Der Wirkstoffgehalt kann von Pilz zu Pilz und abhängig von Art, \r\nHerstellung und Lagerung stark variieren.",
+        "Dosierung Nasal Hohe Dosis": "",
+        "Dosierung Nasal Leichte Dosis": "",
+        "Dosierung Nasal Mittlere Dosis": "",
+        "Dosierung Oral Hohe Dosis": "2,5-5 g",
+        "Dosierung Oral Leichte Dosis": "0,5-1 g",
+        "Dosierung Oral Mittlere Dosis": "1-2,5 g",
+        "Erscheinungsform": "Frische oder getrocknete Pilze",
+        "Kombinationen Gefährlich": "Tramadol",
+        "Kombinationen Verringert": "Alkohol, Benzodiazepine, GBL und GHB, Serotonin-\r\nWiederaufnahmehemmer",
+        "Kombinationen Verstärkt": "Cannabis, DXM, Ketamin, Lachgas, MDMA, MAO-Hemmer \r\n(z. B. einige Antidepressiva), Psychedelika (z. B. LSD, DMT, 2C-B)",
+        "Konsumform": "Oral (gekaute Pilze, \r\nals Tee oder als Pulver in Kapseln)",
+        "Toleranz": "Nach einem Tag baut sich eine Toleranz auf, die ca. eine Woche anhält. \r\nEine Kreuztoleranz mit den meisten anderen psychedelischen Substanzen \r\nist vorhanden.",
+        "VIVID Safer-Use Tipps": "- Freund*innen über konsumierte Menge informieren\n- Anwesenheit einer nüchternen Bezugsperson\n\n> Beachte deine allgemeine Verfassung (Set) und deine Umgebung (Setting) - beides hat einen erheblichen Einfluss auf deine Erfahrung. Wenn es dir zu  viel wird, kann es beruhigend wirken die Umgebung zu wechseln und etwas  zu essen/trinken. In großen Gruppen zu agieren und sich abzusprechen kann schwierig werden. Die Pilze in einem Tee zu lösen und zwei bis drei Stunden  vor dem Konsum nichts mehr zu essen, kann Übelkeit vorbeugen. Nimm dir  Zeit, deinen Trip zu verarbeiten und die Erfahrungen zu integrieren, bevor du  das nächste Mal Psychedelika konsumierst.",
+        "Wirkdauer Geraucht/Verdampft Peak": "",
+        "Wirkdauer Geraucht/Verdampft Wirkdauer": "",
+        "Wirkdauer Geraucht/Verdampft Wirkungseintritt": "",
+        "Wirkdauer Inhaliert Peak": "",
+        "Wirkdauer Inhaliert Wirkdauer": "",
+        "Wirkdauer Inhaliert Wirkungseintritt": "",
+        "Wirkdauer Nasal Peak": "",
+        "Wirkdauer Nasal Wirkdauer": "",
+        "Wirkdauer Nasal Wirkungseintritt": "",
+        "Wirkdauer Oral Peak": "1-2 Stunden / 2–3 Stunden",
+        "Wirkdauer Oral Wirkdauer": "4-7 Stunden",
+        "Wirkdauer Oral Wirkungseintritt": "20-60 Minuten",
+        "Wirkung Negativ": "Übelkeit, Schlaflosigkeit, Einschränkung des Kurzzeitgedächtnisses, \r\nabnehmende Konzentration, Verwirrung bis hin zu Paranoia, angstvolle\r\nIch-Auflösung (ego-death)",
+        "Wirkung Neutral": "Sprunghafte Emotionen und Gedanken, verminderter Appetit",
+        "Wirkung Positiv": "Stimmungshebend, euphorisierend, gesteigerte Sinneswahrneh-\r\nmung, Visuals (Morphen von Formen, erhöhte Farbintensität, geometrische \r\nMuster), erhöhte Kreativität und Emotionalität, spirituelle Zustände",
+        "comment": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Ein ge-\r\nfüllter Magen kann den Wirkungseintritt merklich verzögern sowie die \r\nIntensität verringern. Bei frischen Pilzen erhöht sich die Dosis um das \r\nZehnfache. Der Wirkstoffgehalt kann von Pilz zu Pilz und abhängig von Art, \r\nHerstellung und Lagerung stark variieren.",
+        "dose_dict": {
+            "Nasal": {
+                "Hohe Dosis": "",
+                "Leichte Dosis": "",
+                "Mittlere Dosis": ""
+            },
+            "Oral": {
+                "Hohe Dosis": "2,5-5 g",
+                "Leichte Dosis": "0,5-1 g",
+                "Mittlere Dosis": "1-2,5 g"
+            }
+        },
+        "wirkdauer_dict": {
+            "Nasal": {
+                "Peak": "",
+                "Wirkdauer": "",
+                "Wirkungseintritt": ""
+            },
+            "Oral": {
+                "Peak": "1-2 Stunden / 2–3 Stunden",
+                "Wirkdauer": "4-7 Stunden",
+                "Wirkungseintritt": "20-60 Minuten"
+            }
+        }
+    }
+}
