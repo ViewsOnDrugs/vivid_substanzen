@@ -4,10 +4,27 @@
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/viewsondrugs/vivid_substanzen) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40ViewsOnDrugsBot)](https://twitter.com/ViewsOnDrugsBot)
 
-### ℹ️ About
+### About
 
+Static site (GitHub Pages)
 
-####  Install VIVID SUBSTANZEN with TripSit combinations 
+The static version lives in `docs/` and can be deployed via GitHub Pages.
+
+Run locally:
+
+```bash
+python3 -m http.server 8080 --directory docs
+```
+
+Data refresh:
+
+```bash
+python3 update_db.py
+```
+
+Streamlit app (legacy)
+
+Install VIVID SUBSTANZEN with TripSit combinations
 
 ```python
 python3 -m venv env

@@ -33,6 +33,7 @@ body {
   font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
   background: var(--bg-main);
   color: var(--text-main);
+  overflow-x: hidden;
 }
 
 .app-shell {
@@ -40,6 +41,10 @@ body {
   display: grid;
   grid-template-columns: var(--sidebar-width) 1fr;
   position: relative;
+}
+
+.app-shell.drawer-open {
+  overflow: hidden;
 }
 
 .app-shell.sidebar-collapsed {
@@ -398,6 +403,7 @@ footer img {
 
   .main-panel {
     padding: 24px 18px;
+    width: 100%;
   }
 
   .app-shell.drawer-open .sidebar {
