@@ -434,19 +434,19 @@ function renderRichText(id, text) {
 
   const flushParagraph = () => {
     if (!paragraph.length) return;
-    fragments.push(`<p>${escapeHtml(paragraph.join(" "))}</p>`);
+    fragments.push(`<p>${formatInline(paragraph.join(" "))}</p>`);
     paragraph = [];
   };
 
   const flushList = () => {
     if (!listItems.length) return;
-    fragments.push(`<ul>${listItems.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`);
+    fragments.push(`<ul>${listItems.map((item) => `<li>${formatInline(item)}</li>`).join("")}</ul>`);
     listItems = [];
   };
 
   const flushQuote = () => {
     if (!quote.length) return;
-    fragments.push(`<blockquote>${escapeHtml(quote.join(" "))}</blockquote>`);
+    fragments.push(`<blockquote>${formatInline(quote.join(" "))}</blockquote>`);
     quote = [];
   };
 
@@ -483,6 +483,23 @@ function renderRichText(id, text) {
   flushQuote();
 
   container.innerHTML = fragments.join("");
+}
+
+function formatInline(text) {
+  const raw = String(text);
+  const linkRegex = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
+  let result = "";
+  let lastIndex = 0;
+  let match;
+
+  while ((match = linkRegex.exec(raw)) !== null) {
+    const [full, label, href] = match;
+    result += escapeHtml(raw.slice(lastIndex, match.index));
+    result += `<a href="${escapeHtml(href)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>`;
+    lastIndex = match.index + full.length;
+  }
+  result += escapeHtml(raw.slice(lastIndex));
+  return result;
 }
 
 function setText(id, value) {
